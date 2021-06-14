@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Bootstrap 4 Website</title>
+
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- font awasom -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="main.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- smooth scroll cdn -->
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
+
+</head>
+
+<body>
+    <section id="navigation">
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+            <!-- Brand -->
+            <a class="navbar-brand" href="#"><img src="images/w3newbie.png" alt=""></a>
+
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#navigation">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#slider">Slider</a>
+                    </li>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                            Survicess
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#survices">Link 1</a>
+                            <a class="dropdown-item" href="#">Link 2</a>
+                            <a class="dropdown-item" href="#">Link 3</a>
+                            <a class="dropdown-item" href="#">Link 4</a>
+                            
+                        </div>
+                    </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testi">Testimonial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer">Footer</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <!------ carousel ----->
+    <section id="slider">
+        <div id="demo" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/mountains.png" alt="Los Angeles" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <h3>Bootstrap Website</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi ad corrupti, impedit neque vitae perspiciatis, illo quas nisi distinctio et!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/snow.png" alt="Chicago" class="d-block w-100">
+
+                </div>
+                <div class="carousel-item">
+                    <img src="images/red.png" alt="New York" class="d-block w-100">
+
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </section>
+    <!-- survices section -->
+    <section id="survices">
+        <div class="container my-5 text-center">
+            <h1 class="title text-center mb-5">What we use</h1>
+            <div class="row myrow">
+                <div class="col-sm-4 mb-5">
+                    <img src="images/html5.png" class="myimg" alt="">
+                    <h5 class="img-desc">HTML5</h5>
+                </div>
+                <div class="col-sm-4 mb-5">
+                    <img src="images/bootstrap.png" class="myimg" alt="">
+                    <h5 class="img-desc">BOOTSTRAP</h5>
+                </div>
+                <div class="col-sm-4 mb-5">
+                    <img src="images/css3.png" class="myimg" alt="">
+                    <h5 class="img-desc">CSS3</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about section -->
+    <section id="about">
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="mb-3">Lorem ipsum consider.</h2>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem suscipit recusandae ut culpa deserunt hic, commodi eum quia qui similique repenatus ducimus. Quam consectetur dolorum voluptas!</p>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem suscipit recusandae u consectetur dolorum voluptas!</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/bootstrap2.jpg" alt="" class="b4-img">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- testimonial section -->
+    <section id="testi">
+        <div class="container my-5">
+            <div class="row custom">
+                <div class="col-md-3 col-sm-6 mb-3">
+                    <h2 class="mb-3">Build With Sass</h2>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem amet magnam debitis impedit nesciunt ut assumenda odio eius dignissimos vero.</p>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-3 ">
+                    <img src="images/sass.png" alt="" class="img-fluid">
+                </div>
+                <div class=" col-md-3 col-sm-6 mb-3">
+                    <h2 class="mb-3">And Less</h2>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem amet magnam debitis impedit nesciunt ut assumenda odio eius dignissimos vero.</p>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-3">
+                    <img src="images/less.png" alt="" class="img-fluid">
+                </div>
+
+                <div class=" col-12 my-5" id="mycollapse">
+
+                    <a href="#" data-toggle="collapse" data-target="#demo" class="tabbtn">Can learn more about Bootstrap?</a>
+
+                    <div id="demo" class="collapse lead mt-2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati mollitia excepturi aliquid numquam rem animi maxime earum unde officia incidunt dolorem, possimus ea, voluptas, fugit voluptatem dolor quas reprehenderit fuga provident minus, sequi voluptates! Non aliquam, molestias itaque impedit quos pariatur laudantium illo assumenda hic officia iure animi culpa neque eveniet quo corporis dignissimos totam autem explicabo dolorem, consequatur dicta! Numquam velit, ad neque, ipsam ut, esse consequuntur quibusdam, asperiores sunt deserunt soluta quidem tenetur pariatur nesciunt dolores! Ab delectus aliquid quo! Praesentium aliquid dolor laboriosam, non voluptas itaque nam nisi id suscipit, eum voluptatibus at earum a commodi saepe.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- footer-section -->
+    <section id="footer">
+        <div class="container py-5 text-center">
+            <div class="row">
+                <div class="col-sm-4 mb-5">
+                    <h3>Contact Us</h3>
+                    <p class="footer-des">Our address is Lorem ipsum dolor <br> Lorem ipsum dolor.</p>
+
+                </div>
+                <div class="col-sm-4 mb-4">
+                    <h3>Connect</h3>
+                    <div class="icon">
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-youtube"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-whatsapp"></i>
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="rabit">
+                        <i class="fas fa-dragon"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <button class="scrollUp">UP</button>
+
+    <!--script-->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+
+
+            var scroll = new SmoothScroll('a[href*="#"]', {
+                speed: 500,
+                speedAsDuration: true
+            });
+
+            var scrollUP = document.querySelector('.scrollUp');
+            window.onscroll = function() {
+
+                if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+                    scrollUP.style.display = "block";
+                } else {
+                    scrollUP.style.display = "none";
+                }
+            }
+            scrollUP.onclick = function() {
+                document.body.scrollTop = 0; // For Safari
+                document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+            }
+
+        });
+
+    </script>
+
+
+</body>
+
+</html>
